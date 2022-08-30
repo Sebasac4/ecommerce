@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Send Flowers' rel='stylesheet'>
+    <title>3-68COL | Quienes Somos</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="header">   
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+                <img src="logo.jpg" width="225px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Quienes somos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="">Cuenta</a></li>
+    
+                </ul>
+            </nav>
+            <img src="bolsa.png" width="30px" height="30px">
+            <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+    
+          </div>
+          <div class="row">
+              <div class="col-2">
+                  <h1>¡ Vive el dia que se <br>apellida de hoy !</h1>
+              </div>
+              <div class="col-2">
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="titulo">
+            <h2>¿Quienes somos?</h2>
+        </div>
+        <div class="parrafo">
+            <p>Somos un emprendimiento en donde estampamos tus sueños y damos rienda suelta
+                a nuestra imaginación, entregando todo nuestro corazón en este proyecto.
+            </p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="porque">
+            <h2>¿ Por que hicimos esto ?</h2>
+        </div>
+        <div class="parrafo2">
+            <p>Porque vimos la necesidad que tiene la gente de guardar un recuerdo tangible
+                de lo que mas ama.
+            </p>
+        </div>
+    </div>
+<!--------------footer-->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Medios de pago</h3>
+          <p>Manejamos servicios contraentrega en Bogota y los siguientes medios de pago fuera de la ciudad:</p>
+          <div class="row">
+            <div class="col-5">
+              <img src="nequi.svg">
+            </div>
+            <div class="col-5">
+              <img src="daviplata.svg">
+            </div>
+            <div class="col-5">
+              <img src="paypal.png">
+            </div>
+            <div class="col-5">
+              <img src="contraentrega.png">
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-col-4">
+          <h3>¡ Redes Sociales !</h3>
+          <a name="contacto"></a>
+          <ul>
+            <li><a href="https://wa.me/message/7YDI3PUE2GLCL1">WhatsApp</a><img src="whatsapp.svg"></li>
+            <li><a href="https://www.facebook.com/3-68col-100100552663414/?ref=pages_you_manage">Facebook</a><img src="facebook.svg"></li>
+            <li><a href="https://www.instagram.com/3_68col/?hl=es">Instagram</a><img src="instagram.svg"></li>
+            <li><a href="https://www.youtube.com/channel/UChSvAr5pnxnsStfL_BNoivA">Youtube</a><img src="youtube.svg"></li>
+            <li><a href="https://www.tiktok.com/@3_68col">TikTok</a><img src="tiktok.svg"></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2022-Sebastian Avila</p>
+    </div>
+  </div>
+  <!-------------js for toggle menu-->
+<script>
+    var MenuItems= document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+  
+    function menutoggle(){
+      if(MenuItems.style.maxHeight== "0px")
+      {
+        MenuItems.style.maxHeight = "200px";
+      }
+    else
+      {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</body>
+</html>
